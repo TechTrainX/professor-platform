@@ -1,0 +1,12 @@
+import { Router } from "express";
+import { asyncHandler } from "../utils/async-handler.js";
+import { contentController, siteController, toolsController, updateContentController, updateSiteController, updateToolController } from "../controllers/data.controller.js";
+const router = Router();
+router.get("/site", asyncHandler(siteController));
+router.get("/content", asyncHandler(contentController));
+router.get("/tools", asyncHandler(toolsController));
+router.get("/admin/tools", asyncHandler(toolsController));
+router.patch("/admin/site", asyncHandler(updateSiteController));
+router.patch("/admin/content/:id", asyncHandler(updateContentController));
+router.patch("/admin/tools/:id", asyncHandler(updateToolController));
+export default router;

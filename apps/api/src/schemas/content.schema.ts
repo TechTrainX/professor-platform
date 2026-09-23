@@ -1,0 +1,3 @@
+import { z } from "zod";
+export const contentSchema = z.object({ body: z.object({ title: z.string().min(1), slug: z.string().regex(/^[a-z0-9-]+$/), summary: z.string().optional(), descriptionHtml: z.string().optional(), category: z.string().optional(), tags: z.array(z.string()).default([]), status: z.enum(["draft", "published"]).default("draft") }), params: z.object({}), query: z.object({}) });
+export const contentQuerySchema = z.object({ body: z.object({}), params: z.object({}), query: z.object({ page: z.coerce.number().optional(), limit: z.coerce.number().optional(), category: z.string().optional() }) });

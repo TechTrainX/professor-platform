@@ -1,0 +1,122 @@
+[
+  {
+    "id": "pub-1",
+    "type": "publication",
+    "status": "published",
+    "year": "2025",
+    "title": "Interpretable TinyML pipelines for low-power environmental sensing",
+    "summary": "A practical architecture for small models that remain inspectable on constrained devices.",
+    "meta": "IEEE Internet of Things Journal · Vol. 12",
+    "tags": [
+      "TinyML",
+      "Edge AI"
+    ],
+    "featured": true
+  },
+  {
+    "id": "pub-2",
+    "type": "publication",
+    "status": "published",
+    "year": "2024",
+    "title": "A visual grammar for explaining feedback systems in the undergraduate lab",
+    "summary": "How visual state and signal models can reduce cognitive load in first exposure to control.",
+    "meta": "International Journal of Engineering Education",
+    "tags": [
+      "Pedagogy",
+      "Control"
+    ],
+    "featured": false
+  },
+  {
+    "id": "pub-3",
+    "type": "publication",
+    "status": "draft",
+    "year": "2026",
+    "title": "Calibrating trust in classroom simulators",
+    "summary": "Working paper on how students interpret instrumented simulations.",
+    "meta": "Working draft",
+    "tags": [
+      "Education"
+    ],
+    "featured": false
+  },
+  {
+    "id": "proj-1",
+    "type": "project",
+    "status": "published",
+    "year": "2025",
+    "title": "HarborSense",
+    "summary": "Battery-aware edge analytics for coastal monitoring with a field-ready sensor node.",
+    "meta": "Edge systems · Research prototype",
+    "tags": [
+      "IoT",
+      "Embedded"
+    ],
+    "featured": true
+  },
+  {
+    "id": "proj-2",
+    "type": "project",
+    "status": "published",
+    "year": "2024",
+    "title": "Motor control, made inspectable",
+    "summary": "A visual lab kit for seeing duty cycle, torque, and thermal load as one system.",
+    "meta": "Teaching lab · Open hardware",
+    "tags": [
+      "Control",
+      "Teaching"
+    ],
+    "featured": true
+  },
+  {
+    "id": "proj-3",
+    "type": "project",
+    "status": "published",
+    "year": "2023",
+    "title": "QuietGrid",
+    "summary": "A low-cost classroom instrument for mapping energy signatures across small devices.",
+    "meta": "Energy-aware computing",
+    "tags": [
+      "Energy",
+      "Instrumentation"
+    ],
+    "featured": false
+  },
+  {
+    "id": "blog-1",
+    "type": "blog",
+    "status": "published",
+    "year": "2025",
+    "title": "The best simulator is the one students can interrogate",
+    "summary": "Why inspectability matters more than visual spectacle in engineering learning.",
+    "meta": "Notes from the lab · 7 min read",
+    "tags": [
+      "Teaching"
+    ],
+    "featured": true
+  },
+  {
+    "id": "blog-2",
+    "type": "blog",
+    "status": "published",
+    "year": "2024",
+    "title": "What belongs at the edge?",
+    "summary": "A field note on choosing the boundary between sensor, firmware, and cloud.",
+    "meta": "Systems notebook · 5 min read",
+    "tags": [
+      "Edge AI"
+    ],
+    "featured": false
+  },
+  {
+    "id": "ach-1",
+    "type": "achievement",
+    "status": "published",
+    "year": "2024",
+    "title": "Outstanding Educator Award",
+    "summary": "Northbridge Institute of Technology · For building the interactive systems curriculum.",
+    "meta": "Recognition",
+    "tags": [],
+    "featured": true
+  }
+]

@@ -1,0 +1,1 @@
+{"name":"professor-platform","private":true,"packageManager":"pnpm@9.15.0","scripts":{"dev":"pnpm --filter @professor/api dev & pnpm --filter @professor/web dev","build":"pnpm -r build","test":"pnpm -r test","typecheck":"pnpm -r typecheck"},"devDependencies":{"typescript":"^5.6.3"}}

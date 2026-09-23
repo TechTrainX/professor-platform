@@ -1,0 +1,12 @@
+import { Router } from "express";
+import { asyncHandler } from "../utils/async-handler.js";
+import { requireAuth } from "../middleware/auth.middleware.js";
+import { validate } from "../middleware/validate.middleware.js";
+import { contentQuerySchema, contentSchema } from "../schemas/content.schema.js";
+import { createContentController, listAdminContentController, listContentController, updateContentController } from "../controllers/content.controller.js";
+const router = Router();
+router.get("/", validate(contentQuerySchema), asyncHandler(listContentController));
+router.get("/admin", requireAuth, validate(contentQuerySchema), asyncHandler(listAdminContentController));
+router.post("/", requireAuth, validate(contentSchema), asyncHandler(createContentController));
+router.patch("/:id", requireAuth, asyncHandler(updateContentController));
+export default router;

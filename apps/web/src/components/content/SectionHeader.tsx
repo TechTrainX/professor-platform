@@ -1,0 +1,1 @@
+export function SectionHeader({ eyebrow, title, intro, action }: { eyebrow: string; title: string; intro?: string; action?: React.ReactNode }) { return <div className="section-header"><div><p className="eyebrow">{eyebrow}</p><h2>{title}</h2>{intro && <p className="section-intro">{intro}</p>}</div>{action}</div>; }

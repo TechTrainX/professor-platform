@@ -1,0 +1,20 @@
+import cookieParser from "cookie-parser";
+import cors from "cors";
+import express from "express";
+import helmet from "helmet";
+import { randomUUID } from "node:crypto";
+import { env } from "./config/env.js";
+import routes from "./routes/index.js";
+import { errorMiddleware, notFoundMiddleware } from "./middleware/error.middleware.js";
+import { sendSuccess } from "./utils/api-response.js";
+
+export const app = express();
+app.use(helmet());
+app.use(cors({ origin: env.CLIENT_URL, credentials: true }));
+app.use(express.json({ limit: "2mb" }));
+app.use(cookieParser());
+app.use((_req, res, next) => { res.locals.requestId = randomUUID(); next(); });
+app.get("/health", (_req, res) => sendSuccess(res, { status: "ok" }));
+app.use("/api", routes);
+app.use(notFoundMiddleware);
+app.use(errorMiddleware);

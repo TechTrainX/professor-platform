@@ -1,0 +1,54 @@
+[
+  {
+    "id": "tool-1",
+    "slug": "fan-speed-circuit-simulator",
+    "status": "published",
+    "category": "CONTROL SYSTEMS",
+    "title": "Fan Speed Ci",
+    "summary": "Tune a PWM controller and see how duty cycle changes speed, current, and thermal load.",
+    "level": "Intermediate",
+    "time": "12 min",
+    "color": "cyan",
+    "updated": "18 Feb 2025",
+    "objective": "Understand the relationship between PWM duty cycle and motor response."
+  },
+  {
+    "id": "tool-2",
+    "slug": "sensor-noise-explorer",
+    "status": "published",
+    "category": "SIGNAL PROCESSING",
+    "title": "Sensor Noise Explorer",
+    "summary": "Separate signal from noise by changing sampling rate, filter width, and sensor conditions.",
+    "level": "Foundational",
+    "time": "8 min",
+    "color": "lime",
+    "updated": "04 Feb 2025",
+    "objective": "Build intuition for sampling and smoothing."
+  },
+  {
+    "id": "tool-3",
+    "slug": "pid-control-playground",
+    "status": "published",
+    "category": "CONTROL SYSTEMS",
+    "title": "PID Control Playground",
+    "summary": "Move a virtual system toward a setpoint and observe proportional, integral, and derivative effects.",
+    "level": "Advanced",
+    "time": "15 min",
+    "color": "orange",
+    "updated": "29 Jan 2025",
+    "objective": "Read a PID response and diagnose overshoot."
+  },
+  {
+    "id": "tool-4",
+    "slug": "edge-energy-budget",
+    "status": "draft",
+    "category": "ENERGY AWARENESS",
+    "title": "Edge Energy Budget",
+    "summary": "Compare the energy profile of sensing, inference, storage, and transmission.",
+    "level": "Foundational",
+    "time": "10 min",
+    "color": "violet",
+    "updated": "12 Mar 2025",
+    "objective": "Recognize where energy goes in an edge device."
+  }
+]

@@ -1,0 +1,112 @@
+{
+  "profile": {
+    "name": "Dr. Neelesh Rao",
+    "role": "Professor of Electrical & Computer Engineering",
+    "institution": "Northbridge Institute of Technology",
+    "location": "Bengaluru, India",
+    "email": "neelesh.rao@northbridge.edu",
+    "bio": "I design systems that make invisible engineering ideas visible. My work sits at the intersection of embedded intelligence, energy-aware computation, and engineering education.",
+    "longBio": "Dr. Neelesh Rao is a professor and systems researcher working across embedded intelligence, cyber-physical systems, and engineering pedagogy. His lab builds compact, explainable prototypes that move from a lecture diagram to a working bench experiment.",
+    "availability": "Open to research collaborations and doctoral supervision."
+  },
+  "stats": [
+    {
+      "value": "18",
+      "label": "years teaching"
+    },
+    {
+      "value": "42",
+      "label": "papers & chapters"
+    },
+    {
+      "value": "27",
+      "label": "student projects"
+    },
+    {
+      "value": "09",
+      "label": "live tools"
+    }
+  ],
+  "researchAreas": [
+    {
+      "id": "embedded",
+      "number": "01",
+      "title": "Embedded intelligence",
+      "summary": "Low-power systems that sense, decide, and respond at the edge.",
+      "detail": "TinyML, sensor fusion, real-time systems, and dependable firmware for constrained environments.",
+      "tone": "blue"
+    },
+    {
+      "id": "energy",
+      "number": "02",
+      "title": "Energy-aware computing",
+      "summary": "Engineering computation around the physical limits of energy.",
+      "detail": "Power profiling, adaptive control, and hardware-software co-design for resilient devices.",
+      "tone": "orange"
+    },
+    {
+      "id": "education",
+      "number": "03",
+      "title": "Engineering education",
+      "summary": "Interactive models that make difficult systems easier to reason about.",
+      "detail": "Simulation-led learning, visual explanations, and classroom instruments for systems thinking.",
+      "tone": "green"
+    }
+  ],
+  "featuredProjects": [
+    {
+      "id": "harbor",
+      "tag": "EDGE SYSTEMS",
+      "title": "HarborSense: edge analytics for coastal monitoring",
+      "summary": "A battery-aware sensor node that turns noisy shoreline measurements into a clear signal for local operators.",
+      "year": "2025",
+      "color": "navy"
+    },
+    {
+      "id": "motor",
+      "tag": "TEACHING LAB",
+      "title": "Motor control, made inspectable",
+      "summary": "A visual lab kit that lets students see the relationship between duty cycle, torque, and thermal load.",
+      "year": "2024",
+      "color": "blue"
+    }
+  ],
+  "featuredPublications": [
+    {
+      "id": "paper-1",
+      "year": "2025",
+      "title": "Interpretable TinyML pipelines for low-power environmental sensing",
+      "venue": "IEEE Internet of Things Journal",
+      "type": "Research article"
+    },
+    {
+      "id": "paper-2",
+      "year": "2024",
+      "title": "A visual grammar for explaining feedback systems in the undergraduate lab",
+      "venue": "International Journal of Engineering Education",
+      "type": "Teaching research"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2025",
+      "title": "Professor, Northbridge Institute of Technology",
+      "detail": "Leading the Embedded Systems & Learning Lab."
+    },
+    {
+      "year": "2021",
+      "title": "Associate Professor, Northbridge Institute of Technology",
+      "detail": "Established the interactive systems teaching track."
+    },
+    {
+      "year": "2016",
+      "title": "Ph.D. in Electrical Engineering",
+      "detail": "Dissertation on dependable edge sensing under energy constraints."
+    }
+  ],
+  "settings": {
+    "announcement": "New: the 2025 Embedded Systems teaching kit is now available.",
+    "footerLine": "Research, teaching, and working systems.",
+    "navLabel": "NEELESH RAO / ENGINEERING"
+  }
+}
